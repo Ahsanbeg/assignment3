@@ -1,0 +1,50 @@
+
+h2{
+  text-align: center;
+  margin: 20px;
+}
+
+.title{
+   margin-top: 0;
+   margin-left: 80px;
+   margin-bottom: 20px;
+  color: black;
+}
+.content{
+background-color: grey;
+margin-right: 2%;
+margin-left: 5%;
+margin-bottom: 20px;
+}
+.specific{
+  background-color: grey;
+  margin-bottom: 20px;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.const{
+  color: black;
+  text-align: center;
+}
+.navbar-toggle{
+  margin-top: -55px;
+}
+#p{
+  padding-top: 5px;
+}
+#header-nav{
+  background-color: grey;
+  border-radius: 0;
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle, .icon-bar {
+  border: 2px solid black;
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav{
+    text-align: center;
+    background-color: white;
+  }
+
+}
